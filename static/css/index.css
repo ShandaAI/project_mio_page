@@ -120,6 +120,12 @@ body {
   font-weight: bolder;
 }
 
+.eql-cntrb { 
+  font-size: 0.875rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
 .publication-authors {
   max-width: 40rem;
   margin: 0.5rem auto;
