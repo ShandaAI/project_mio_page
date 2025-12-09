@@ -22,7 +22,7 @@ body {
   position: fixed;
   top: 1.2rem;
   right: 1.2rem;
-  z-index: 30;
+  z-index: 1000;
 }
 
 .top-right-logo img {
@@ -39,6 +39,16 @@ body {
 
   .top-right-logo img {
     max-height: 48px;
+  }
+}
+
+.has-top-logo-offset #section_hero {
+  padding-top: 4.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .has-top-logo-offset #section_hero {
+    padding-top: 3.5rem;
   }
 }
 
