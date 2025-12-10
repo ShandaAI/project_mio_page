@@ -19,10 +19,11 @@ body {
 }
 
 .top-right-logo {
-  position: fixed;
+  position: fixed !important; /* lock to viewport */
   top: 1.2rem;
   right: 1.2rem;
   z-index: 1000;
+  transform: translateZ(0); /* avoid scroll reflow quirks */
 }
 
 .top-right-logo img {
